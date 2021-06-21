@@ -37,6 +37,7 @@ Devido a falta de tempo e o projeto ter sido criado inteiramente do zero poderia
 - Toast para exibição de erros e mensagens de sucesso ao fechar e dentro do MODAL ao invés de ficar na página inicial.
 - Validações próprias laravel que deixei como exemplo pronto porém não aplicado.
 - Recursos em Ajax sem reload nas páginas.
+- Formato de informações BD.
 - TDD.
 
 
