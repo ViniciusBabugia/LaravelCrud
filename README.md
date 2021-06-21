@@ -14,36 +14,29 @@ Projeto desenvolvido em Laravel com o objetivo de criar um CRUD de clientes busc
 ## Instalação
 
 1 - Realize o CLONE do projeto
-<pre><code>   
-git clone https://github.com/ViniciusBabugia/LaravelCrud.git
-</code></pre>
+<pre><code>git clone https://github.com/ViniciusBabugia/LaravelCrud.git</code></pre>
 2 - Mude para o diretório de trabalho   
-<pre><code>   
-cd project
-</code></pre>
+<pre><code>cd project</code></pre>
 3 - Abra o código no editor, renomeie <code>.env.example</code> para <code>.env</code> e modifique as informações do banco de dados name, username, password de acordo com o que foi criado.
 4 - Instale as dependencias do composer
-<pre><code>   
-composer install
-</code></pre>
+<pre><code>composer install</code></pre>
 5 - Gere a chave de autenticação do Laravel
-<pre><code>   
-php artisan key:generate
-</code></pre>
+<pre><code>php artisan key:generate</code></pre>
 6 - Crie as informações do banco de dados
-<pre><code>   
-php artisan migrate
-</code></pre>
+<pre><code>php artisan migrate</code></pre>
 7 - Rode o projeto pelo comando abaixo ou via ferramenta utilizada
-<pre><code>   
-php artisan serve
-</code></pre>
+<pre><code>php artisan serve</code></pre>
 8 - Link de acesso
-<pre><code>   
-http://sua_url/project/public/clients 
-</code></pre>
+<pre><code>http://sua_url/project/public/clients</code></pre>
 Exemplo minha url
-<pre><code>   
-http://localhost:8081/crmall/project/public/clients
-</code></pre>
+<pre><code>http://localhost:8081/crmall/project/public/clients</code></pre>
+
+## Sugestões de implementações futuras
+Devido a falta de tempo e o projeto ter sido criado inteiramente do zero poderiamos implementar:
+- Combo cidade e estado dinâmico.
+- Toast para exibição de erros e mensagens de sucesso ao fechar e dentro do MODAL ao invés de ficar na página inicial.
+- Validações próprias laravel que deixei como exemplo pronto porém não aplicado.
+- Recursos em Ajax sem reload nas páginas.
+- TDD.
+
 
