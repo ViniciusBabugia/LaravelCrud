@@ -15,7 +15,7 @@ Projeto desenvolvido em Laravel com o objetivo de criar um CRUD de clientes busc
 
 1 - Realize o CLONE do projeto
 <pre><code>   
-git clone https://github.com/sreejithbs/Laravel-AJAX-CRUD-Modal.git
+git clone https://github.com/ViniciusBabugia/LaravelCrud.git
 </code></pre>
 2 - Mude para o diretório de trabalho   
 <pre><code>   
