@@ -27,9 +27,9 @@ Projeto desenvolvido em Laravel com o objetivo de criar um CRUD de clientes busc
 7 - Rode o projeto pelo comando abaixo ou via ferramenta utilizada
 <pre><code>php artisan serve</code></pre>
 8 - Link de acesso
-<pre><code>http://sua_url/project/public/clients</code></pre>
+<pre><code>http://sua_url/LaravelCrud/public/clients</code></pre>
 Exemplo minha url
-<pre><code>http://localhost:8081/crmall/project/public/clients</code></pre>
+<pre><code>http://localhost:8081/LaravelCrud/public/clients</code></pre>
 
 ## Sugestões de implementações futuras
 Devido a falta de tempo e o projeto ter sido criado inteiramente do zero poderiamos implementar:
