@@ -1,0 +1,101 @@
+.text-left-bold {
+    float: left !important;
+    text-align: left !important;
+    font-weight: bold;
+}
+
+.text-left-normal {
+    float: left !important;
+    text-align: left !important;
+}
+
+.form-control-qual {
+	width: auto!important;
+	display: inline;
+}
+
+.label-qual {
+	padding-left: 10px;
+}
+
+.btn-salvar-form-alunos {
+	margin-right: 0;
+}
+
+.visibility-hidden {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.box-tabela-modalidades {
+	border-top: 1px solid #e5e5e5;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+.box-tabela-modalidades .dt-buttons {
+	display: none;
+}
+
+
+.content-item-tema {
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.item-tema {
+	border: 2px solid #e7ecf1;
+	border-radius: 5px;
+	padding: 15px 10px;
+}
+
+.content-item-tema:hover .item-tema, .content-item-tema .item-tema.active {
+	border-color: #000;
+}
+
+.content-item-servicos-img {
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.item-servicos-img {
+	border: 2px solid #e7ecf1;
+	border-radius: 5px;
+	padding: 15px 10px;
+}
+
+.content-item-servicos-img:hover .item-servicos-img, .content-item-servicos-img .item-servicos-img.active {
+	border-color: #000;
+}
+
+.content-item-servicos-icone {
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.item-servicos-icone {
+	border: 2px solid #e7ecf1;
+	border-radius: 5px;
+	padding: 15px 10px;
+}
+
+.content-item-servicos-icone:hover .item-servicos-icone, .content-item-servicos-icone .item-servicos-icone.active {
+	border-color: #000;
+}
+
+.content-visualizar {
+	margin: 0 15px;
+	border: 2px solid #e7ecf1;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.content-visualizar .portlet-title {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eef1f5;
+}
+
+.visu-tema {
+	width: 100%;
+	margin-top: 30px;
+}
