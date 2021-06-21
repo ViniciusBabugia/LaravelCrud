@@ -16,7 +16,7 @@ Projeto desenvolvido em Laravel com o objetivo de criar um CRUD de clientes busc
 1 - Realize o CLONE do projeto
 <pre><code>git clone https://github.com/ViniciusBabugia/LaravelCrud.git</code></pre>
 2 - Mude para o diretório de trabalho   
-<pre><code>cd project</code></pre>
+<pre><code>cd LaravelCrud</code></pre>
 3 - Abra o código no editor, renomeie <code>.env.example</code> para <code>.env</code> e modifique as informações do banco de dados name, username, password de acordo com o que foi criado.
 4 - Instale as dependencias do composer
 <pre><code>composer install</code></pre>
