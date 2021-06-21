@@ -11,41 +11,39 @@
 
 Projeto desenvolvido em Laravel com o objetivo de criar um CRUD de clientes buscando as informações da API ViaCep e preencher os dados de endereço, tendo por regra básica somente validar os campos: Nome, Gênero e Data de Nascimento e demonstrar as utilizações de recursos Laravel, JavaScript, CSS, HTML vinculado ao bootstrap.
 
-## Inicialização do projeto
+## Instalação
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1 - Realize o CLONE do projeto
+<pre><code>   
+git clone https://github.com/sreejithbs/Laravel-AJAX-CRUD-Modal.git
+</code></pre>
+2 - Mude para o diretório de trabalho   
+<pre><code>   
+cd project
+</code></pre>
+3 - Abra o código no editor, renomeie <code>.env.example</code> para <code>.env</code> e modifique as informações do banco de dados name, username, password de acordo com o que foi criado.
+4 - Instale as dependencias do composer
+<pre><code>   
+composer install
+</code></pre>
+5 - Gere a chave de autenticação do Laravel
+<pre><code>   
+php artisan key:generate
+</code></pre>
+6 - Crie as informações do banco de dados
+<pre><code>   
+php artisan migrate
+</code></pre>
+7 - Rode o projeto pelo comando abaixo ou via ferramenta utilizada
+<pre><code>   
+php artisan serve
+</code></pre>
+8 - Link de acesso
+<pre><code>   
+http://sua_url/project/public/clients 
+</code></pre>
+Exemplo minha url
+<pre><code>   
+http://localhost:8081/crmall/project/public/clients
+</code></pre>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
